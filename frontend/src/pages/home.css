@@ -1,0 +1,31 @@
+.home-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+    height: 50vh;
+    /* background-color: black; */
+}
+
+.home-btn-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.home-container input{
+    padding: 10px;
+    font-size: 20px;
+    margin: 30px;
+}
+
+.home-btn-active{
+    border: 2px solid white;
+    background-color: rgb(14, 140, 104);
+}
+
+
+
